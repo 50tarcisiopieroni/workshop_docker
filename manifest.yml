@@ -1,0 +1,9 @@
+---
+applications:
+- name: workshop-docker-cefet-<Matricula>
+  memory: 128M
+  instances: 1
+  route: mybluemix.net
+  disk_quota: 1024M
+  docker:
+    image: <local-sua-image-docker-hub>
