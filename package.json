@@ -1,9 +1,22 @@
 {
-  "name": "Workshop Docker CEFET",
-  "version": "1.0",
+  "name": "workshop_docker",
+  "version": "1.0.0",
+  "description": "Workshop Intro Docker",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohlcastro/workshop_docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrohlcastro/workshop_docker/issues"
+  },
+  "homepage": "https://github.com/pedrohlcastro/workshop_docker#readme",
   "dependencies": {
     "express": "^4.16.4"
   }
